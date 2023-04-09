@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&family=New+Tegomin&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'IM Fell Great Primer SC', serif;
+    text-align: center;
+}
+.intro-image{
+    background-attachment: fixed;
+    background-image: url("../images/coffee4.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro-image_link a {
+    background-color: #4d3224a4;
+    color: #c3c2c4;
+    border: 2px solid #c3c2c49c;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+.intro-image_link a:hover{
+    transform: scale(1.2);
+}
+.intro-text{
+    background-color: #261610c5;
+    color: #dbd1c8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 10rem;
+}
+.intro-text_textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.quality-image{
+    background-attachment: fixed;
+    background-image: url("../images/coffee2.webp");
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quality-image_link a {
+    background-color: #2d443acc;
+    color: #cfd8d8;
+    border: 2px solid #53635c;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+.quality-image_link a:hover{
+    transform: scale(1.2);
+}
+.quality-text{
+    background-color: #2d443acc;
+    color: #cfd8d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 10rem;
+}
+.quality-text_textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.origin-image{
+    background-attachment: fixed;
+    background-image: url("../images/coffee5.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.origin-image_link a{
+    background-color: #312923d3;
+    color: #bca994;
+    border: 2px solid #afa995;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+.origin-text{
+    background-color: #332d27;
+    color: #d9d4c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 10rem;
+}
+.origin-text_textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer{
+    height: 250px;
+    background-color: #0c1b15f1;
+    color: #cfd8d8;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+.footer ul li{
+    display: inline-block;
+    margin: 1rem;
+}
+.footer ul li a{
+    color: #9cb9b9;
+    text-decoration: none;
+}
+.footer ul li a:hover{
+    color: #ffffff;
+    /* transform: scale(1.3);*/
+}
