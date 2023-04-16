@@ -106,7 +106,10 @@ body{
     text-transform: uppercase;
     transition: all 0.5s ease-in-out;
 }
-.origin-text{
+.origin-image_link a:hover{
+    transform: scale(1.2);
+}
+    .origin-text{
     background-color: #332d27;
     color: #d9d4c2;
     display: flex;
